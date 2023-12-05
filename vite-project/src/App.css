@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.span{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.red{
+  border-radius: 50%;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+.purple{
+  border-radius: 50%;
+  background-color: blueviolet;
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+.blue{
+  border-radius: 50%;
+  background-color: rgb(12, 147, 210);
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+.yellow{
+  border-radius: 50%;
+  background-color: rgb(150, 150, 2);
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+.green{
+  border-radius: 50%;
+  background-color: green;
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+
+.colorlabel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
