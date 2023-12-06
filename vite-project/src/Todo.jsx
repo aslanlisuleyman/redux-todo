@@ -4,7 +4,7 @@ import { deleteTodo } from './Redax/TodoSlice';
 const Todo = ({ todo }) => {
   const dispatch = useDispatch()
   return (
-    <div>
+    <div style={{border:'1px dashed '}} >
       <div className="card" style={{ width: '18rem' }}>
         <div className="card-body">
           <p className="card-text">{todo.id}</p>

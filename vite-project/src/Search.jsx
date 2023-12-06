@@ -7,7 +7,7 @@ const Search = (e) => {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#eae2ef', paddingBottom: '90px',position:'relative' }}>
       <input
-        style={{ width: '400px', borderColor: 'purple', marginRight: '10px' }}
+        style={{ width: '400px', borderColor: 'purple', marginRight: '10px',marginTop:'20px' }}
         type="text"
         className="form-control"
         id="usr"
@@ -16,7 +16,7 @@ const Search = (e) => {
           dispatch(searchTodo(e.target.value))
         }}
       />
-      <i className="fas fa-search" style={{ color: 'purple', cursor: 'pointer',position:'absolute',marginLeft:'23%' }}></i>
+      <i className="fas fa-search" style={{ color: 'purple', cursor: 'pointer',position:'absolute',marginLeft:'23%',marginTop:'20px' }}></i>
     </div>
   );
 };

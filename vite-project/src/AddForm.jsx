@@ -30,8 +30,9 @@ const handleSubmit=(e)=>{
        </div>     
 </div>
 
+<div style={{display:'flex'}}>
 
-<div>
+  <div style={{display:'flex',marginLeft:'38%',gap:'15px'}}>
   {
     colors && colors.map((item,index)=>(
       <label htmlFor={item} key={index} className='colorlabel' style={{backgroundColor:item}}>
@@ -39,9 +40,12 @@ const handleSubmit=(e)=>{
       </label>
     ))
   }
+  
 
 </div>
- <button onClick={handleSubmit}>Save</button>
+ <button style={{marginLeft:'100px',backgroundColor:'purple',color:'white',borderRadius:'10px'}} onClick={handleSubmit}>Save</button>
+</div>
+
 
     </div>
   )
